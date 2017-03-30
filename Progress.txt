@@ -4,6 +4,10 @@ Progress:
 2 Hyperlinking of pages needs to be completed.
 3 A background for the body is required. 
 3 More to do after the Events have been finalised
+4 Events.html needs to be corrected.
+  1 Header and footer need to be changed.
+  2 Needs to be linked to the main site ie index.html
+  
 Date: 30-3-2017
 
 Updates:
