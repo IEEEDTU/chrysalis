@@ -1,0 +1,127 @@
+/* HERO */
+
+#hero {
+	position: relative;
+	padding: 120px 0;
+	background: -webkit-linear-gradient(90deg, #085078 10%, #85D8CE 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(90deg, #085078 10%, #85D8CE 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(90deg, #085078 10%, #85D8CE 90%); /* IE10 */
+	background:      -o-linear-gradient(90deg, #085078 10%, #85D8CE 90%); /* Opera 11.10+ */
+	background:         linear-gradient(90deg, #085078 10%, #85D8CE 90%); /* W3C */
+
+	.hero-text {
+		text-align: center;
+		
+		.title {
+			margin: 0 0 20px 0;
+			font-size: 42px;
+			color: @white;
+		}
+
+		.lead {
+			margin-bottom: 40px;
+			color: @white;
+		}
+	}
+
+	.hero-form {
+		text-align: center;
+		margin: 0 auto;
+
+		.default-form {
+
+			.field {
+				position: relative;
+				margin-right: 6px;
+				display: inline-block;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				@media (max-width: @screen-sm) {
+					margin: 0 0 15px 0;
+					width: 100%;
+					display: block
+				}
+
+				input {
+					width: 225px;
+					font-size: 13px;
+					border: transparent;
+					border-radius: 3px;
+					background: @white;
+
+					@media (max-width: @screen-md) {
+						width: 170px;
+					}
+
+					@media (max-width: @screen-sm) {
+						width: 100%;
+					}
+				}
+
+				button {
+					height: 41px;
+				}
+
+				select {
+					display: none;
+				}
+
+				.select-clone {
+					position: absolute;
+					margin-top: -2px;
+					left: 0;
+					right: 0;
+					display: none;
+					background: @white;
+					border-bottom-left-radius: 3px;
+					border-bottom-right-radius: 3px;
+					z-index: 999;
+
+					li {
+						padding: 10px 15px;
+						display: block;
+						text-align: left;
+						cursor: pointer;
+						border-bottom: 1px solid #e0e0e0;
+
+						&:last-child {
+							border-bottom: none;
+						}
+					}
+				}
+
+				.fa {
+					position: absolute;
+					right: 10px;
+					top: 12px;
+					color: #999;
+
+					&.fa-sort {
+						cursor: pointer;
+					}
+				}
+
+				button {
+					border-radius: 3px;
+
+					@media (max-width: @screen-sm) {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	.hero-image {
+		position: relative;
+		bottom: -120px;
+
+		img {
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+		}
+	}
+}

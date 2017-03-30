@@ -1,0 +1,40 @@
+/* BUTTONS */
+
+.btn {
+	padding: 9px 30px;
+	text-transform: uppercase;
+	font-size: 13px;
+	display: inline-block;
+	border-radius: 3px;
+	border: 2px solid transparent;
+	font-family: "Montserrat",sans-serif;
+
+	&.btn-red {
+		background: @red;
+		color: @white;
+
+		&:hover {
+			background: lighten(@red, 4%);
+		}
+	}
+
+	&.btn-blue {
+		background: @blue;
+		color: @white;
+
+		&:hover {
+			background: darken(@blue, 10%);
+		}
+	}
+
+	&.btn-white-transparent {
+		background: transparent;
+		color: @white;
+		border: 2px solid @white;
+
+		&:hover {
+			background: @white;
+			color: @gray;
+		}
+	}
+}

@@ -1,0 +1,112 @@
+/* HEADER */
+
+#header {
+  position: fixed;
+  padding: 15px 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: @white;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+  z-index: 99999;
+
+  .logo {
+    margin-top: 10px;
+  	float: left;
+  
+    a {
+      display: inline-block;
+
+      img {
+        max-width: 125px;
+      }
+    }
+
+    .phone {
+      padding-left: 15px;
+      margin-left: 11px;
+      display: inline-block;
+      border-left: 1px solid #e0e0e0;
+      color: #999;
+      vertical-align: top;
+      font-size: 13px;
+
+      @media (max-width: @screen-md) {
+        display: none;
+      }
+
+      .fa {
+        margin-right: 5px;
+        color: @red;
+      }
+    }
+  }
+
+  .navigation {
+  	float: right;
+
+  	nav {
+
+      @media (max-width: @screen-sm) {
+        position: absolute;
+        padding-bottom: 10px;
+        top: 55px;
+        left: 0;
+        right: 0;
+        float: none;
+        display: none;
+        background: @white;
+      }
+
+  		ul {
+
+  			li {
+          margin-left: 20px;
+
+          @media (max-width: @screen-md) {
+            margin-left: 10px;
+          }
+
+          @media (max-width: @screen-sm) {
+            display: block;
+          }
+
+          &:last-child {
+            padding-right: 0;
+          }
+
+  				a {
+  					color: #999;
+  					text-transform: uppercase;
+  					font-size: 13px;
+
+            @media (max-width: @screen-sm) {
+              margin: 10px 0;
+              display: inline-block;
+            }
+
+            &.btn {
+              color: @white;
+            }
+  				}
+  			}
+  		}
+  	}
+
+    .fa {
+      position: absolute;
+      right: 15px;
+      top: 12px;
+      color: @gray;
+      font-size: 18px;
+      cursor: pointer;
+      display: none;
+
+      @media (max-width: @screen-sm) {
+        display: block;
+      }
+    }
+  }
+}
