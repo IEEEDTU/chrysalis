@@ -11,3 +11,6 @@ Progress:
 Date: 30-3-2017
 
 Updates:
+1 Hyperlinking done for header and header and footer of events.html fixed.
+2 Events.html linked to main site.
+Date 30-3-2017
