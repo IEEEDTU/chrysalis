@@ -11,3 +11,17 @@ Progress:
 Date: 30-3-2017
 
 Updates:
+1 layout of site changed from before.
+2 carasoul added at top.
+3 images required for the carasoul
+4 background to be selected.
+5 logo image to be inserted.
+6 overall colour scheme to be changed.
+7 Events.html needs to be updated.
+8 Facebood link is to be added with correct page id to be inserted.
+
+Design &content updates
+  have requested for logo and background from design team. Pics will be inserted on 5 or 6 April 2017.
+  Need Event Details for event.html page.
+
+Date: 4/4/2017
