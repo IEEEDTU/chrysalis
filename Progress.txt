@@ -11,6 +11,7 @@ Progress:
 Date: 30-3-2017
 
 Updates:
+<<<<<<< HEAD
 1 layout of site changed from before.
 2 carasoul added at top.
 3 images required for the carasoul
@@ -25,3 +26,8 @@ Design &content updates
   Need Event Details for event.html page.
 
 Date: 4/4/2017
+=======
+1 Hyperlinking done for header and header and footer of events.html fixed.
+2 Events.html linked to main site.
+Date 30-3-2017
+>>>>>>> 8bf6662c95fb7720525ea2eeaa1a638e9c677248
